@@ -1,0 +1,10 @@
+storage:
+  dbPath: /data/db
+  engine: wiredTiger
+  directoryPerDB: true
+net:
+  port: 27000
+  bindIp: 127.0.0.1
+  ssl:
+    mode: requireSSL
+    PEMKeyFile: /data/mongo-secure.pem
